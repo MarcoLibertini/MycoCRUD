@@ -1,0 +1,115 @@
+/* Estilo del contenedor principal */
+.contenido-principal {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo de las cabeceras de la tabla */
+table th {
+    font-weight: bold;
+}
+
+/* Estilo de las filas alternadas de la tabla */
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Gris claro */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #e5e5e5; /* Gris medio */
+}
+
+table tbody tr:nth-child(3n) {
+    background-color: #d8d8d8; /* Gris oscuro */
+}
+
+/* Estilo de los botones */
+button {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: red;
+}
+
+/* Margen lateral de la tabla */
+table {
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+
+
+/* Fuente Oswald para toda la página */
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Estilo de los casilleros de la tabla */
+table {
+    border-collapse: separate;
+    border-spacing: 5px; /* Espacio entre las celdas */
+}
+
+td, th {
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo de los botones */
+button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    border-radius: 5px;
+    transition: all 0.3s; /* Transición suave al presionar */
+}
+
+button:active {
+    font-weight: bold; /* Negrita al presionar */
+}
+
+/* Estilo de los títulos */
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+/* Margen a las palabras dentro de los casilleros de la tabla */
+td, th {
+    padding: 5px; /* Margen interno */
+}
+
+/* Estilo de los encabezados de la tabla */
+table th {
+    background-color: #5a585a; /* Gris más oscuro */
+    color: white; /* Texto en blanco para contraste */
+}
+
+/* Estilo del formulario */
+form.table {
+    border-collapse: separate;
+    border-spacing: 5px; /* Espacio entre los casilleros */
+}
+
+table.table-width {
+    width: 80%;
+}
+
+form.table-width {
+    width: 90;
+
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+}
+
+
+
